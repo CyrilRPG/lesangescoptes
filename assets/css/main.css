@@ -1824,7 +1824,7 @@ input[type="button"],
         font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
-        text-transform: none !important; }
+        text-transform: none !important; } 
       #titleBar .toggle:before {
         background: #36688D;
         color: #ffffff;
@@ -2036,4 +2036,17 @@ ul{ border:0; margin:0; padding:0; }
 #pagination-digg a:hover
 {
     border:solid 1px #0e509e
+}
+
+main h2 {
+  color: #2e6ab1;
+}
+
+main h4 {
+  color: #f3cd05;
+  text-decoration: underline;
+}
+
+.auteur {
+  text-align: right;
 }
