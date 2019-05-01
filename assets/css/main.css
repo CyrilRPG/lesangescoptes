@@ -2051,3 +2051,59 @@ main h4 {
   text-align: right;
 }
 
+header img {
+  max-height: 250px;
+  max-width: 200px;
+}
+                      
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+  .flex1 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+   .flex1 img {
+      max-width: 250px;
+      max-height: 250px;
+   }
+                      
+@media screen and (max-width: 820px) {
+  .flex1 {
+    -flow: row wrap;
+  }
+
+  .flex1 img {
+    max-width: 200px;
+    max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 720px)
+{
+    .flex1 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .flex1 img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 500px)
+{
+    .flex1 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .flex1 img {
+    max-width: 100px;
+    max-height: 100px;
+}
