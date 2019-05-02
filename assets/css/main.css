@@ -2058,7 +2058,8 @@ header img {
                       
 .flex1 {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  flex-wrap: nowrap;  
 }
 
 @media screen and (max-width: 1280px) {
@@ -2091,8 +2092,8 @@ header img {
   }
 
   .flex1 img {
-    max-width: 140px;
-    max-height: 140px;
+    max-width: 150px;
+    max-height: 150px;
   }
 }
 
